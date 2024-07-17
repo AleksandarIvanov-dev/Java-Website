@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./changeUser.css">
+</head>
+<body>
+    <label for="searchBar">Search for an User by id</label>
+    <input type="number" min="1" id="searchBar" value="search for...">
+    <button onclick="search()">Search</button>
+
+        <h3>Update an User!</h3>
+        <div>
+
+            <label for="fName">firstName</label>
+            <input type="text" name="firstName" id="fName">
+
+            <label for="lname">LastName</label>
+            <input type="text" name="lastName" id="lName">
+
+            <label for="date">Date of Birth</label>
+            <input type="date" name="dateOfBirth" id="date">
+
+            <label for="number">Phone Number</label>
+            <input type="text" name="phoneNumber" id="number">
+
+            <label for="e-mail">Email</label>
+            <input type="text" name="email" id="e-mail">
+        </div>
+        <button onclick="update()">Update</button>
+
+        <a href="/homePage.html"><button>Home Page</button></a>
+
+    <script src="./changeUser.js"></script>
+</body>
+</html>

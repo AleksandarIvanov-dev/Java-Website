@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="newUser.css">
+</head>
+<body>
+
+    <form action="http://localhost:8080/new-user" method="post">
+        <h3>Create a new user!</h3>
+        <div>
+            <label for="fName">firstName</label>
+            <input type="text" name="firstName" id="fName">
+        </div>
+
+        <div>
+            <label for="lname">LastName</label>
+            <input type="text" name="lastName" id="lName">
+        </div>
+
+        <div>
+            <label for="date">Date of Birth</label>
+            <input type="date" name="dateOfBirth" id="date">
+        </div>
+
+        <div>
+            <label for="number">Phone Number</label>
+            <input type="text" name="phoneNumber" id="number">
+        </div>
+
+        <div>
+            <label for="e-mail">Email</label>
+            <input type="text" name="email" id="e-mail">
+        </div>
+        <button>Submit</button>
+    </form>
+
+    <div>
+        <a href="/homePage.html"><button>Home page</button></a>
+    </div>
+
+</body>
+</html>
